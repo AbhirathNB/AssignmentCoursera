@@ -2,11 +2,14 @@
 *
 {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 h1
 {
-	margin-bottom: 25px;
+	margin: 25px;
+	text-align: center;
 }
 
 .row
@@ -16,12 +19,7 @@ h1
 
 p
 {
-	background-color: #808080;
-	border: 1px solid black;
-	width: 85%;
-	height: 100px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 20px;
 }
 
 .Content
@@ -31,9 +29,21 @@ p
 
 .TitleBox
 {
-	float: right;
-	width: 33.33%;
-	margin-top: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 75px;
+	border: 1px solid black;
+}
+
+.BigBox
+{
+	background-color: #808080;
+	border: 1px solid black;
+	position: relative;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #SmallBox1
