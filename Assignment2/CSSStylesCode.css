@@ -16,6 +16,47 @@ h1
 	width: 100%;
 }
 
+.TitleBox
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 75px;
+	border: 2px solid black;
+}
+
+article
+{
+	padding: 20px;
+}
+
+.BigBox
+{
+	background-color: #808080;
+	border: 1px solid black;
+	position: relative;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#SmallBox1
+{
+	background-color: #FFA500;
+}
+
+#SmallBox2
+{
+	background-color: #A52A2A;
+}
+
+#SmallBox3
+{
+	background-color: #FFFF00;
+}
+
+
+
 
 /* Large Devices */
 @media (min-width: 1200px)
@@ -133,44 +174,12 @@ h1
 	}
 }
 
-p
+/* Smaller devices */
+@media (max-width: 991px)
 {
-	padding: 20px;
+	.TitleBox
+	{
+		margin-top: 25px;
+	}
 }
-
-
-.TitleBox
-{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 75px;
-	border: 1px solid black;
-}
-
-.BigBox
-{
-	background-color: #808080;
-	border: 1px solid black;
-	position: relative;
-	width: 95%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#SmallBox1
-{
-	background-color: #FFA500;
-}
-
-#SmallBox2
-{
-	background-color: #A52A2A;
-}
-
-#SmallBox3
-{
-	background-color: #FFFF00;
-}
-
 
